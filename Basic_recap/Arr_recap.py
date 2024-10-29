@@ -17,9 +17,6 @@ removed = [i for i in arr if i not in remove_set]
 print ("Removed in O(1) : ", removed)
 
 
-
-
-
 arr.sort() # O(NlogN)
 print("Ascending order : ",arr)
 
@@ -34,6 +31,7 @@ print("Fliping elements :", arr)
 
 
 arr.count(1) # O(N)
+
 
 
 
