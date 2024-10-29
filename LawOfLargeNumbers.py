@@ -17,10 +17,39 @@ arr.sort() # Sort in Ascending order
 first = arr[n-1] # The biggest number of the given arr
 Second = arr[n-2] #2
 
+
+###### Smart way
+
+count = int(m/(k + 1)* k)
+count += m %(k+1)
+
+result = 0
+
+result += (count) * first
+result += (m-count)* Second
+
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 result = 0
 
 while True:
-     
+
      for i in range(k):
           if m == 0:
                break
@@ -33,6 +62,8 @@ while True:
      result += Second
      m -= 1
 
-print(result)
+print(result) """
+
+
 
 
